@@ -1,0 +1,25 @@
+body{
+    background:rgb(255, 255, 255);
+}
+
+header {
+    background-color:rgba(0, 0, 255, 0.3);
+    border-bottom: 1px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  .menu{
+      display:inline-block;
+      padding:5px;
+
+  }
+  .menu:hover{
+      color:red;
+      z-index:15;
+  }
+  .menu .thallivai{
+    left:-500px; 
+    top:30px;
+    position:absolute;
+  }
