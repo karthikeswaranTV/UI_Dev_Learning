@@ -72,17 +72,17 @@ header {
 
   }
   .alai{
-    z-index: -20;
     transform: translateY(90px);
     transform: scaleX(1.1);
   }
-  /* svg{
+   svg{
     transform: translateY(2);
-  } */
+    position:absolute;
+  } 
   .wave-container{
     display: flex;
     flex-direction: column;
-    margin-top:18rem;
+    margin-top:20rem;
   }
   .Naangal_yaar{
       display:flex;
@@ -100,6 +100,10 @@ header {
       list-style-type: none;
       color:rgb(255, 0, 43);
   }
+  .Naangal_yaar>ul>li, .Naangal_yaar>p{
+    color:red;
+    margin-top: 1rem;
+  }
   .Naangal_yaar>ul>li>i{
     color:rgb(0, 0, 0);
 }
@@ -107,6 +111,9 @@ header {
     object-position: 50px 30px;
 }
 .description{
-    top:0px;
-    background-color: white;
+    background:rgb(193, 236, 236);
+    height:50px;
+    color:black;
+    display:flex;
+    margin-top: 180px;
 }
