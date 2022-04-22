@@ -93,7 +93,7 @@ header {
       padding: 10rem;
   }
   .Naangal_yaar>h1{
-      top:-100px;
+      top:-120px;
       left:50px;
       font-size: 5rem;
       text-align: left;
@@ -119,11 +119,13 @@ header {
   }
   .Naangal_yaar>ul>li>i{
     color:rgb(0, 0, 0);
+    position: absolute;
+    top:300px;
 }
 .cat_img{
     top:50px;
     right:100px;
-    object-position: 150px 30px;
+    /* object-position: 150px 30px; */
     position:absolute;
 }
 .description{
@@ -133,5 +135,6 @@ header {
     color:black;
     display:flex;
     margin-top:280px;
+    left:-10px;
     position:relative;
 }
