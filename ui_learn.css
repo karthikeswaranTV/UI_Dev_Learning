@@ -119,7 +119,7 @@ header {
   }
   .Naangal_yaar>ul>li>i{
     color:rgb(0, 0, 0);
-    position: absolute;
+    /* position: absolute; */
     top:300px;
 }
 .cat_img{
@@ -137,4 +137,13 @@ header {
     margin-top:280px;
     left:-10px;
     position:relative;
+}
+.service_part{
+  background-color:rgb(255, 251, 4);
+  width:1368px;
+  height:500px;
+  position:relative;
+  top:-22px;
+  left:-10px;
+
 }
